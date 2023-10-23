@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Style.css">
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="top" class="row">
+            <h1>
+                Weather Dashboard
+
+
+            </h1>
+        
+
+        </div>
+        <div class="row">
+
+            <div class="col-3">
+                <h2>Search for a City</h2>
+                <input type="text" id="searchCity">
+                <br><br>
+                <button id="searchbutton"class="btn btn-info">search</button>
+                <div id="searchhistory">
+                    <hr>
+                    <ul id="historylist"></ul>
+                </div>
+
+            </div>
+            <div class="col-9">
+
+                <div class="container">
+
+                    <div id="cityinfo"class="row">
+                        <div id="col">
+                            <h2 id="currentcity">
+
+
+                            </h2>
+                            <img id="currentimg"src="" alt="">
+                            <br>
+                            <img src="" id="currenticon" alt="">
+                            <p id="currenttemp">
+
+
+                            </p>
+                            <br>
+                            <p id="currentwind">
+
+
+                            </p>
+                            <br>
+                            <p id="currenthumidity">
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <h2>
+
+                            5 Day Forecast
+                        </h2>
+                    </div>
+                    <div id="forecast" class="row">
+                        <div class="col">
+                            <h5 id="day1date">
+
+
+                            </h5>
+
+                            <img src="" id="day1icon" alt="">
+                            <p id="day1temp">
+
+
+                            </p>
+                            <p id="day1wind">
+
+
+                            </p>
+                            <p id="day1humidity">
+
+
+                            </p>
+
+                        </div>
+                        <div class="col">
+                            <h5 id="day2date">
+
+
+                            </h5>
+
+                            <img src="" id="day2icon" alt="">
+                            <p id="day2temp">
+
+
+                            </p>
+                            <p id="day2wind">
+
+
+                            </p>
+                            <p id="day2humidity">
+
+
+                            </p>
+
+                        </div>
+                        <div class="col">
+                            <h5 id="day3date">
+
+
+                            </h5>
+
+                            <img src="" id="day3icon" alt="">
+                            <p id="day3temp">
+
+
+                            </p>
+                            <p id="day3wind">
+
+
+                            </p>
+                            <p id="day3humidity">
+
+
+                            </p>
+
+                        </div>
+                        <div class="col">
+                            <h5 id="day4date">
+
+
+                            </h5>
+
+                            <img src="" id="day4icon" alt="">
+                            <p id="day4temp">
+
+
+                            </p>
+                            <p id="day4wind">
+
+
+                            </p>
+                            <p id="day4humidity">
+
+
+                            </p>
+
+                        </div>
+                        <div class="col">
+                            <h5 id="day5date">
+
+
+                            </h5>
+
+                            <img src="" id="day5icon" alt="">
+                            <p id="day5temp">
+
+
+                            </p>
+                            <p id="day5wind">
+
+
+                            </p>
+                            <p id="day5humidity">
+
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.10/dayjs.min.js"></script>
+    <script src="./Script.js"></script>
+</body>
+
+</html>
